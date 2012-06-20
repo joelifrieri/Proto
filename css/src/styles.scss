@@ -1,0 +1,14 @@
+// Eric Meyers CSS reset
+@import "compass/reset";
+// All of the Compass CSS3 mixins
+@import "compass/css3";
+
+// This section enables sprite usage. Only uncomment if you want to use Compass sprites for this project.
+/*
+@import "compass/utilities/sprites";
+@import "sprite/*.png";
+@include all-sprite-sprites(true);
+*/
+
+@import "mixins", "general", "typography", "sprites";
+// @import "myStylesheet";
